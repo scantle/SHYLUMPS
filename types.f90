@@ -92,4 +92,17 @@ end function linear_process
 
 !-------------------------------------------------------------------------------------------------!
 
+subroutine move_water(amount, from_stor, to_stor)
+  implicit none
+  
+  real, intent(in)                 :: amount
+  type(container), intent(inout)   :: from_stor, to_stor
+  
+  from_stor%storage = from_stor%storage - amount
+  to_stor%storage   = to_stor%storage + amount
+
+end subroutine move_water
+
+!-------------------------------------------------------------------------------------------------!
+
 end module types
