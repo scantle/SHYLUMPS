@@ -172,8 +172,8 @@ program SHYLUMPS
     gw_loss = linear_process(stor_gw%storage, gw_loss_coef)
     call move_water(gw_loss, stor_gw, stor_gw_deep)
     
-    ! Calculate streamflow (m3/s) from mm
-    streamflow = (stor_stream%storage / 1000) * area * 86400
+    ! Calculate streamflow (m3/s) from mm/day
+    streamflow = ((stor_stream%storage / 1000) * area) / 86400
     
     ! Write out
     write(20, '(i6,2x,a10,2x,ES16.5)') t, date, streamflow
