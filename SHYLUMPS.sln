@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "SHYLUMPS", "SHYLUMPS.vfproj", "{E172B891-827F-4AA7-B4A7-9D84B0672C8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Debug|x64.ActiveCfg = Debug|x64
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Debug|x64.Build.0 = Debug|x64
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Debug|x86.Build.0 = Debug|Win32
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Release|x64.ActiveCfg = Release|x64
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Release|x64.Build.0 = Release|x64
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Release|x86.ActiveCfg = Release|Win32
+		{E172B891-827F-4AA7-B4A7-9D84B0672C8E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06C6D7E-B685-46C8-9754-816768B30E35}
+	EndGlobalSection
+EndGlobal
