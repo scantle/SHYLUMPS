@@ -1,0 +1,25 @@
+# SHYLUMPS INPUT FILE
+
+Name: CoastForkWillamette
+Area: 1662.061602
+Days: 22007
+
+# Coefficients
+rain_temp:          4.44
+snow_temp:         -1.00
+melt_low_temp:      2.00
+melt_high_temp:     6.00
+precip_correction:  1.00
+et_correction:      1.00
+quickflow_coef:     0.05
+recharge_coef:      0.05
+baseflow_coef:      0.05
+gw_loss_coef:       0.05
+
+# Initial Storage Values
+init_snow:          0.00
+init_soil:        100.00
+init_gw:          600.00
+
+# Input Files
+Forcings: forcings.dat
