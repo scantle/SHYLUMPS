@@ -28,4 +28,4 @@ Ensure you have a Fortran compiler installed (e.g., `gfortran` or Intel Fortran 
 
 ### Visual Studio with the Intel Fortran Compiler (Optional)
 
-Visual Studio 2022 Project files are provided with the project.
+Visual Studio 2022 Project files are provided with the project. To use them, download and install the [latest version of Visual Studio]([url](https://visualstudio.microsoft.com/vs/)) (the community version is free). Then download and install the [Intel Fortran Compiler]([url](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#fortran)).
